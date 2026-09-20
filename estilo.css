@@ -2,12 +2,16 @@ body {margin: auto;
 font-family: 'Times New Roman', Times, serif;}
 
 
-.primero{ height: 300px;
+.primero{ height: 800px;
     padding: 50px;
+    font-size: 30px;
     background-image: url(clay-banks-BIuzWHRgLhs-unsplash.jpg);
     background-size: cover;
     background-position: center;
-    color: antiquewhite}
+    color: antiquewhite
+    
+}
+    
     
     
 .menu {
@@ -25,16 +29,26 @@ font-family: 'Times New Roman', Times, serif;}
     font-size: 20px;}
 
 .imagen {
-    width: 400px;
-    left: 400px;
+    height: 400px;
+    width: 500px;
+    position: relative;
+    top: 30px;
+    right: 900px;
     border-radius: 20px;
     align-content: center;
-    margin-right: 50px;
+    
 }
     
 
 .cuarto {
     background-color: antiquewhite;
+    height:800px;
     color: rgb(4, 54, 4);
     text-align: right;
+}
+
+.casa{
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
 }
