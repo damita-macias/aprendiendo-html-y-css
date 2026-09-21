@@ -1,54 +1,56 @@
-body {margin: auto;
-font-family: 'Times New Roman', Times, serif;}
-
-
-.primero{ height: 800px;
-    padding: 50px;
-    font-size: 30px;
-    background-image: url(clay-banks-BIuzWHRgLhs-unsplash.jpg);
-    background-size: cover;
-    background-position: center;
-    color: antiquewhite
-    
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: antiquewhite;
+    color: #222;
 }
     
-    
-    
-.menu {
-    background-color: antiquewhite;
+.navbar{
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    gap: calc(30px);
-    padding: 15px 30px;
-    border-radius: 50px;
-
+    background-color: beige;
+    padding: 12px 24px;
+    border-radius: 30px;
+    max-width: 1000px;
+    margin: 0 auto 20px auto;
 }
-.menu a {
+.logo{
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #222;
+}
+
+.nav-links{
+    margin: 12px;
     text-decoration: none;
-    color: rgb(7, 71, 7);
-    font-size: 20px;}
+    color: aquamarine;
+    font-weight: 500;  
+}
+    
+.cta-nav{
+    background-color: #1b4817;
+    color: beige;
+    border: none;
+    padding: 8px 18px;
+    border-radius: 20px;
+    cursor: pointer;
+}
 
-.imagen {
-    height: 400px;
-    width: 500px;
+.hero{
+    background-image: url(christian-dala-x6jKFTIKguo-unsplash.jpg);
+    border-radius: 10px;
+    color: aliceblue;
+    padding: 60px 40px 80px 40px;
+    max-width: 1000px;
+    margin: 0 auto 40px auto;
     position: relative;
-    top: 30px;
-    right: 900px;
-    border-radius: 20px;
-    align-content: center;
-    
-}
-    
-
-.cuarto {
-    background-color: antiquewhite;
-    height:800px;
-    color: rgb(4, 54, 4);
-    text-align: right;
 }
 
-.casa{
-    height: 300px;
-    width: 300px;
-    border-radius: 20px;
+.hero-content{
+    max-width: 450px;
 }
