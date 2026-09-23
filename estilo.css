@@ -4,12 +4,12 @@
     padding: 0px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-body{
+body {
     background-color: antiquewhite;
     color: #222;
 }
     
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -19,20 +19,20 @@ body{
     max-width: 1000px;
     margin: 0 auto 20px auto;
 }
-.logo{
+.logo {
     font-weight: bold;
     font-size: 1.2rem;
     color: #222;
 }
 
-.nav-links{
+.nav-links {
     margin: 12px;
     text-decoration: none;
     color: aquamarine;
     font-weight: 500;  
 }
     
-.cta-nav{
+.cta-nav {
     background-color: #1b4817;
     color: beige;
     border: none;
@@ -41,33 +41,38 @@ body{
     cursor: pointer;
 }
 
-.hero{
+.hero {
     background-image: url(christian-dala-x6jKFTIKguo-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+
     border-radius: 10px;
     color: aliceblue;
+
     padding: 60px 40px 80px 40px;
+
     max-width: 1000px;
     margin: 0 auto 40px auto;
     position: relative;
 }
 
-.hero-content{
+.hero-content {
     max-width: 450px;
 }
 
-.badger{
+.badger {
     background: rgba(255, 255, 255, 0.2);
     padding: 4px 12px;
     border-radius: 12px;
     font-size: 0.8rem;
 }
 
-.hero h1{
+.hero h1 {
     font-size: 2.2rem;
     margin: 15px 0;
 }
 
-.btn-primary{
+.btn-primary {
     background-color: #1b4817;
     color: beige;
     border: none;
@@ -77,7 +82,7 @@ body{
     margin-top: 15px;
 }
 
-.search-bar{
+.search-bar {
     position: absolute;
     bottom: -25px;
     left: 50%;
@@ -92,14 +97,15 @@ body{
     max-width: 700px;
 }
 
-.search-bar input{
+.search-bar input {
     flex: 1;
     border: none;
     outline: none;
     padding: 8px;
+    border-radius: 15px;
 }
 
-.btn-search{
+.btn-search {
     background-color: #1b4817;
     color: antiquewhite;
     border: none;
@@ -107,7 +113,7 @@ body{
     border-radius: 20px;
     cursor: pointer;
 }
-.about-section{
+.about-section {
     display: flex;
     gap: 30px;
     align-items: center;
@@ -116,19 +122,18 @@ body{
     background-color: bisque;
     padding: 20px;
     border-radius: 20px;
-
 }
 
-.about-imagen img{
+.about-imagen img {
     width: 100%;
     max-width: 350px;
     border-radius: 20px;
 }
- .about-text h2{
+ .about-text h2 {
     margin-bottom: 15px;
  }
 
- .btn-secundary{
+ .btn-secundary {
     background-color: #1b4817;
     color: antiquewhite;
     border: none;
@@ -138,52 +143,54 @@ body{
     cursor: pointer;
  }
  
- .cards-section{
+ .cards-section  {
     max-width: 1000px;
     margin: 40px auto;
     text-align: center;
+    
  }
 
  .cards-section h2 {
     margin-bottom: 25px;
  }
 
- .cards-grid{
+ .cards-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 20px;
  }
 
- .card{
+ .card {
     background-color: beige;
     width: 300px;
+    position: relative;
     border-radius: 20px;
     padding: 15px;
     text-align: left;
-    padding-top: 0cqi;
     overflow: hidden;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5)
-  
+
  }
 
- .card img{
+ .card img {
     width: 100%;
     border-radius: 12px;
     margin-bottom: 12px;
+    display: block;
  }
 
- .card h3{
+ .card h3 {
     font-size: 1.1rem;
     margin-bottom: 8px;
  }
 
- .card p{
+ .card p {
     font-size: 0.9rem;
     color: #666;
     margin-bottom: 15px;
  }
 
- .btn-card{
+ .btn-card {
     background-color: #1b4817;
     color: bisque;
     border: none;
